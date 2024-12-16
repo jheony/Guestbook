@@ -1,0 +1,35 @@
+*{
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+
+/* 헤더 */
+h1 {
+font-size: 350%;
+text-align: center;
+border-bottom: 2.5px solid gray;
+margin: 0;
+padding: 20px;
+}
+
+.modal{
+position: absolute;
+display: none;
+top:50%; 
+            width:400px;
+            height:600px;
+
+            padding:40px;  
+
+            text-align: center;
+
+            background-color: rgb(255,255,255);
+            border-radius:10px; 
+            box-shadow:0 2px 3px 0 rgba(34,36,38,0.15); 
+
+            transform:translateY(-50%); 
+}
+.mWrite{
+    
+}

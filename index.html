@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>방명록</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>방명록</h1>
+
+    <div id="grid">
+        <p cmt>
+            <ul id="cmtList">
+
+            </ul>
+        </p>
+        <input type="button" class="btn" value="작성하기">
+        <input type="button" class="list" value="전체보기">
+        <div class="modal">
+            <div class="mWrite">
+                <label for="writer">작성자:</label>
+                <input type="text" id="writer" required>
+                <label for="pwd">비밀번호:</label>
+                <input type="password" id="pwd" required>
+                <label for="content">내용:</label>
+                <input type="text" id="content" required>
+                <button type="button" class="close">닫기</button>
+                <button type="button" class="submit">작성완료</button>
+            </div>
+        </div>
+    </div>
+    <script src="comment.js"></script>
+
+</body>
+
+</html>
